@@ -1,5 +1,5 @@
 /* Blink Example sal
-
+ * Das originale blink-example von espressif
    This example code is in the Public Domain (or CC0 licensed, at your option.)
 
    Unless required by applicable law or agreed to in writing, this
@@ -54,7 +54,7 @@ void app_main()
     printf("Software aus Spandau\r\n");
     printf("program: d:/uprozessorWS/ESP32_IDF_WS/blink\n");
     printf("Beispiel aus esp-idf/examples\n");
-    printf("angepasst, verändert, kodiert in Eclipse Oxygen Release (4.7.0)\r\r\n");
+    printf("angepasst, verï¿½ndert, kodiert in Eclipse Oxygen Release (4.7.0)\r\r\n");
   //  printf("Beispiel aus esp-idf/examples\n");
    printf("   > Ein Task --blink_task-- wird erzeugt\n");
     vTaskDelay(2000 / portTICK_PERIOD_MS);
