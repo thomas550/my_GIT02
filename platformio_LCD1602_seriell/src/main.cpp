@@ -1,7 +1,7 @@
 /********************************************************************
  * platformio_LCD1602_seriell
  * ESP32
- * alternative "LiquidCrystal_I2C.h" von 
+ * alternative "LiquidCrystal_I2C.h" von dingens benutzen.
  * *****************************************************************/
 
 #include <Wire.h> 
