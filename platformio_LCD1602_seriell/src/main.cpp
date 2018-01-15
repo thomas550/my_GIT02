@@ -1,7 +1,8 @@
 /********************************************************************
  * platformio_LCD1602_seriell
- * ESP32
- * alternative "LiquidCrystal_I2C.h" von 
+ * ESP32 -- funzt
+ * alternative "LiquidCrystal_I2C.h" von "iotsharing dotcom" benutzen
+ * "http://www.iotsharing.com/2017/05/how-to-use-arduino-esp32-to-display-i2c-lcd.html"
  * *****************************************************************/
 
 #include <Wire.h> 
