@@ -43,10 +43,10 @@
                 "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/lwip",
                 "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/cores/esp32",
                 "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/variants/esp32",
-                "d:/uProzessorWS/platformio-WS/platformio_32_OTA_pur/src",
-                "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src",
-                "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
+                "d:/uProzessorWS_GIT/my_GITtest02/platformio_32_OTA_pur/src",
                 "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
+                "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
+                "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src",
                 "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                 "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                 "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src",
@@ -120,10 +120,10 @@
                     "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/lwip",
                     "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/cores/esp32",
                     "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/variants/esp32",
-                    "d:/uProzessorWS/platformio-WS/platformio_32_OTA_pur/src",
-                    "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src",
-                    "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
+                    "d:/uProzessorWS_GIT/my_GITtest02/platformio_32_OTA_pur/src",
                     "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
+                    "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
+                    "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src",
                     "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                     "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                     "C:/Users/Thomas/.platformio/packages/framework-arduinoespressif32/libraries/ESPmDNS/src",
@@ -387,5 +387,6 @@
             ],
             "intelliSenseMode": "clang-x64"
         }
-    ]
+    ],
+    "version": 3
 }
