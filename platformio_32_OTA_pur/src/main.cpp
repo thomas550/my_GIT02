@@ -9,8 +9,8 @@
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
 
-const char* ssid = "RegQuadFritz";
-const char* password = "Arabella, die grosse Katze.";
+const char* ssid = "xxx";
+const char* password = "xxx";
 uint64_t chipid;
 
 //*********************************************************************
