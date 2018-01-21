@@ -1,0 +1,12 @@
+diff a/platformio_32_OTA_pur/src/main.cpp b/platformio_32_OTA_pur/src/main.cpp	(rejected hunks)
+@@ -9,8 +9,8 @@
+ #include <WiFiUdp.h>
+ #include <ArduinoOTA.h>
+ 
+-const char* ssid = "RegQuadFritz";
+-const char* password = "Arabella, die grosse Katze.";
++const char* ssid = "xxx";
++const char* password = "xxx";
+ uint64_t chipid;
+ 
+ //*********************************************************************
