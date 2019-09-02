@@ -3,6 +3,8 @@
  * ESP32 -- funzt
  * alternative "LiquidCrystal_I2C.h" von "iotsharing dotcom" benutzen
  * "http://www.iotsharing.com/2017/05/how-to-use-arduino-esp32-to-display-i2c-lcd.html"
+ * ###
+ * oder "https://github.com/nhatuan84/esp32-lcd"
  * *****************************************************************/
 
 #include <Wire.h> 
@@ -25,15 +27,17 @@ void setup_LCD_ser(){
   lcd.leftToRight();
   lcd.noDisplay();
   // Print a message to the LCD.
-  lcd.backlight();
   lcd.setCursor(0,0);
   lcd.print("0-Hello, world!");
   lcd.setCursor(0,1);
   lcd.print("1-by EasyIoT");
   /*lcd.setCursor(0,2);
-  lcd.print("2-Hallo Spandau!");
+  lcd.print("2-Hallo Spandau!");*/
+  lcd.setCursor(0,2);
+  lcd.print("3-Software by Sy");
   lcd.setCursor(0,3);
-  lcd.print("3-Software by Sy");*/
+  lcd.print("4-ende setup");
+  lcd.backlight();
   lcd.display();
   delay(2000);
 }
@@ -53,7 +57,7 @@ void lcd_demo(void){
 
     lcd.backlight();//on
     lcd.home(); lcd.clear();
-    lcd.print("Hello LCD");
+    lcd.print("0 Hello LCD");
     delay(1000);
 
    // lcd.setBacklight(0);  //off
@@ -62,36 +66,37 @@ void lcd_demo(void){
 
   } else if (show == 1) {
     lcd.clear();
-    lcd.print("Cursor On -- ha ha");
+    lcd.print("1 Cursor On --");
     lcd.cursor();
 
   } else if (show == 2) {
     lcd.clear();
-    lcd.print("Cursor Blink");
+    lcd.print("2 Cursor Blink");
     lcd.blink();
 
   } else if (show == 3) {
     lcd.clear();
-    lcd.print("Cursor OFF");
+    lcd.print("3 Cursor OFF");
     lcd.noBlink();
     lcd.noCursor();
 
   } else if (show == 4) {
     lcd.clear();
-    lcd.print("Display Off");
+    lcd.print("4 Display Off");
+    delay(3000);
     lcd.noDisplay();
 
   } else if (show == 5) {
     lcd.clear();
-    lcd.print("Display On");
+    lcd.print("5 Display On");
     lcd.display();
 
   } else if (show == 7) {
     lcd.clear();
     lcd.setCursor(0, 0);
-    lcd.print("*** first line.");
+    lcd.print("7 *** first line.");
     lcd.setCursor(0, 1);
-    lcd.print("*** second line.");
+    lcd.print("7 *** second line.");
 
   } else if (show == 8) {
     lcd.scrollDisplayLeft();
